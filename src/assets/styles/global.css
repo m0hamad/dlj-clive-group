@@ -1,0 +1,14 @@
+:root {
+    --darkBlue: #164280;
+    --blue: #5687b8;
+    --lightBlue: #b6d8ef;
+    --purple: #6e56b8;
+    --pink: #b8566e;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+@font-face {
+    font-family: 'jost';
+    src: url('../fonts/Jost.ttf') format('truetype');
+}
