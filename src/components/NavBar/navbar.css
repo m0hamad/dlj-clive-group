@@ -1,0 +1,123 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    background-color: var(--lightBlue);
+    height: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-menu-responsive {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chem-department-logo {
+    padding: 13px .5rem;
+    height: 1.5rem;
+}
+
+.nav-items {
+    padding: .5rem;
+    display: flex;
+    gap: .75rem;
+}
+
+.nav-item {
+    color: var(--darkBlue);
+    text-decoration: none;
+    transition: .15s all;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: var(--borderRadius1);
+
+    &:hover {
+        background-color: var(--fadedDarkBlue);
+        color: var(--pink);
+    }
+}
+
+.nav-item-underline {
+    border-radius: 4px;
+    height: 2px;
+    margin: 1px 0;
+    transition: var(--transition1);
+    background-color: var(--darkBlue);
+    width: 0;
+}
+
+.nav-item:hover .nav-item-underline {
+    background-color: var(--darkBlue);
+    width: 100%;
+}
+
+.nav-button {
+    margin: .5rem;
+    padding: .5rem;
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    transition: var(--transition1);
+    display: flex;
+    flex-direction: column;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.nav-button:hover {
+    background: var(--fadedDarkBlue)
+}
+
+.nav-button-line-1 {
+    height: 2px;
+    width: 75%;
+    background-color: var(--darkBlue);
+    transition: var(--transition1);
+    border-radius: 4px;
+}
+
+.nav-button-line-2 {
+    height: 2px;
+    width: 100%;
+    background-color: var(--darkBlue);
+    transition: var(--transition1);
+    border-radius: 2px;
+}
+
+.nav-button-line-1-open {
+    height: 2px;
+    width: 100%;
+    background-color: var(--pink);
+    transform: rotate(45deg) translate(1px, 1px);
+    transition: 0.2s ease;
+    border-radius: 4px;
+
+}
+
+.nav-button-line-1-open-opp {
+    height: 2px;
+    width: 100%;
+    background-color: var(--pink);
+    transform: rotate(-45deg);
+    transition: 0.2s ease;
+    border-radius: 4px;
+}
+
+.nav-button:hover .nav-button-line-1 {
+    width: 100%;
+}
+
+.nav-button:hover .nav-button-line-2 {
+    width: 75%;
+}

@@ -1,14 +1,23 @@
 :root {
     --darkBlue: #164280;
+    --fadedDarkBlue: rgba(22, 66, 128, .15);
     --blue: #5687b8;
     --lightBlue: #b6d8ef;
     --purple: #6e56b8;
     --pink: #b8566e;
     --white: #FFFFFF;
     --black: #000000;
+    --transition1: .15s all;
+    --borderRadius1: 2px
 }
 
 @font-face {
     font-family: 'jost';
     src: url('../fonts/Jost.ttf') format('truetype');
+}
+
+* {
+    font-family: 'jost';
+    padding: 0;
+    margin: 0;
 }
