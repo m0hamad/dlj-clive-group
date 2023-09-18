@@ -1,0 +1,13 @@
+.banner-ctr {
+    border-radius: var(--borderRadius1);
+    background-color: var(--darkBlue);
+    width: 100%;
+    padding: .75rem .5rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--lightBlue);
+    background-image: url('../../assets/images/background-2.png');
+    background-size: 24rem;
+    background-repeat: repeat;
+    box-sizing: border-box;
+}

@@ -1,8 +1,12 @@
 import React from 'react'
+import Banner from '../../components/Banner/Banner'
 
 const Overview = () => {
     return (
-        <div>Overview</div>
+        <>
+            <Banner text="Overview" />
+            <div>Overview</div>
+        </>
     )
 }
 

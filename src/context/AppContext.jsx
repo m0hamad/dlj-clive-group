@@ -1,5 +1,6 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import useWindowSize from "../hooks/useWindowSize";
+import { NAV_ITEMS } from "../utils/constants";
 
 const AppContext = createContext({
     windowWidth: 0,

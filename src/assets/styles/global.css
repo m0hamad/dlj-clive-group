@@ -8,7 +8,10 @@
     --white: #FFFFFF;
     --black: #000000;
     --transition1: .15s all;
-    --borderRadius1: 2px
+    --borderRadius1: 2px;
+    --desktopWidth: 1080px;
+    --tabletWidth: 768px;
+    --boxShadow1: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 @font-face {
@@ -20,4 +23,32 @@
     font-family: 'jost';
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-image: url('../../assets/images/background.png');
+    background-size: 24rem;
+    background-repeat: repeat;
+}
+
+ol {
+    counter-reset: item;
+}
+
+
+ol>li {
+    margin: 0;
+    padding: 0 0 1rem 3rem;
+    text-indent: -2rem;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ol>li:before {
+    display: inline-block;
+    width: 1.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
+    text-align: right;
+    content: counter(item) ".";
 }

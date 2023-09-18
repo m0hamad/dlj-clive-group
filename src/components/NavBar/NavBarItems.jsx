@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { NAV_ITEMS, TABLET_WIDTH } from '../../utils/constants'
+import { NAV_ITEMS, PINK, TABLET_WIDTH } from '../../utils/constants'
 import { Link } from 'react-router-dom'
 import './navbar.css';
 import AppContext from '../../context/AppContext';
@@ -16,7 +16,7 @@ const NavBarItems = ({ setIsOpen }) => {
             }}
         >
             {
-                NAV_ITEMS.map(navItem =>
+                NAV_ITEMS.slice(1).map(navItem =>
                     <Link
                         className='nav-item'
                         key={navItem.name}
@@ -28,6 +28,16 @@ const NavBarItems = ({ setIsOpen }) => {
                     </Link>
                 )
             }
+            <a
+                className='nav-item'
+                onClick={() => {
+                    document.getElementById('footer').scrollIntoView();
+                    setIsOpen(c => !c)
+                }}
+            >
+                Contact
+                <div className='nav-item-underline' />
+            </a>
         </div>
     )
 }

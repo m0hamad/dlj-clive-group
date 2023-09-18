@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    transition: var(--transition1);
 }
 
 .navbar-menu-responsive {
@@ -27,16 +28,17 @@
 .nav-items {
     padding: .5rem;
     display: flex;
-    gap: .75rem;
+    gap: .5rem;
 }
 
 .nav-item {
     color: var(--darkBlue);
     text-decoration: none;
     transition: .15s all;
-    font-weight: 500;
-    padding: 4px 8px;
+    font-weight: 400;
+    padding: 2px 4px;
     border-radius: var(--borderRadius1);
+    cursor: pointer;
 
     &:hover {
         background-color: var(--fadedDarkBlue);
@@ -49,12 +51,11 @@
     height: 2px;
     margin: 1px 0;
     transition: var(--transition1);
-    background-color: var(--darkBlue);
     width: 0;
 }
 
 .nav-item:hover .nav-item-underline {
-    background-color: var(--darkBlue);
+    background-color: var(--blue);
     width: 100%;
 }
 
