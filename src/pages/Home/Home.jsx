@@ -1,10 +1,11 @@
 import React from 'react'
+import Banner from '../../components/Banner/Banner'
 
 const Home = () => {
     return (
-        <div>
-            <p>Home</p>
-        </div>
+        <>
+            <Banner isPrimary={true} text="The D.L.J. Clive Group" />
+        </>
     )
 }
 

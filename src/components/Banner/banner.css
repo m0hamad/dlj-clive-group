@@ -2,7 +2,7 @@
     border-radius: var(--borderRadius1);
     background-color: var(--darkBlue);
     width: 100%;
-    padding: .75rem .5rem;
+    padding: .5rem;
     font-weight: 300;
     font-size: 1.5rem;
     color: var(--lightBlue);

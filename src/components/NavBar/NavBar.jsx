@@ -24,8 +24,8 @@ const NavBar = () => {
 
         const handleScroll = () => {
             if (navBarRef && navBarRef?.current) {
-                if (document.body.scrollTop > 0 ||
-                    document.documentElement.scrollTop > 0) {
+                if (document.body.scrollTop > 30 ||
+                    document.documentElement.scrollTop > 30) {
                     navBarRef.current.style.visibility = 'hidden'
                     navBarRef.current.style.opacity = '0'
                     setIsOpen(false)

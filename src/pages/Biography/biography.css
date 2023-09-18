@@ -1,0 +1,27 @@
+.biography-ctr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    box-sizing: border-box;
+    border-radius: var(--borderRadius1);
+    background-color: var(--fadedLightBlue);
+    width: 100%;
+    height: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+    .biography-ctr {
+        flex-direction: column;
+    }
+}
+
+.profile-pic {
+    border: double 4px var(--blue);
+    border-radius: 100%;
+}
+
+.bio-text {
+    text-align: justify;
+}

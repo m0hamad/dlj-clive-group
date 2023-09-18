@@ -1,9 +1,16 @@
 import React from 'react'
 import './banner.css'
 
-const Banner = ({ text }) => {
+const Banner = ({ text, isPrimary }) => {
     return (
-        <div className='banner-ctr' >
+        <div
+            style={{
+                fontWeight: isPrimary && 500,
+                fontSize: isPrimary && '2rem',
+                textAlign: isPrimary && 'center'
+            }}
+            className='banner-ctr'
+        >
             {text}
         </div>
     )

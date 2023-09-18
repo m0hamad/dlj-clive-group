@@ -1,6 +1,7 @@
 :root {
     --darkBlue: #164280;
     --fadedDarkBlue: rgba(22, 66, 128, .15);
+    --fadedLightBlue: rgba(182, 216, 239, .2);
     --blue: #5687b8;
     --lightBlue: #b6d8ef;
     --purple: #6e56b8;

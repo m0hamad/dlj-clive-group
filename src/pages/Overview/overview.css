@@ -1,0 +1,29 @@
+.overview-h2 {
+    color: var(--darkBlue);
+}
+
+.url-underline {
+    height: 2px;
+    width: 0%;
+    background-color: var(--blue);
+    transition: var(--transition1);
+}
+
+.overview-url {
+    font-weight: 500;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--blue);
+    transition: var(--transition1);
+
+    &:hover {
+        color: var(--pink);
+
+        .url-underline {
+            width: 100%;
+            background-color: var(--pink);
+        }
+    }
+}
