@@ -6,7 +6,7 @@ import AppContext from '../../context/AppContext'
 
 const ReactionMethodology = () => {
 
-    const { rmImages, windowWidth } = useContext(AppContext)
+    const { windowWidth } = useContext(AppContext)
 
     return (
         <>
@@ -28,8 +28,8 @@ const ReactionMethodology = () => {
                             className='ctr-2'
                         >
                             {
-                                rmImages[idx]?.default &&
                                 <img className='row-img' src={`./images/reactionmethodology/${idx + 1}.png`} alt={`${row.name} image`} />
+                                // <img className='row-img' src={`./images/naturalproductsynthesis/${idx + 1}.png`} alt={`${row.name} image`} />
                             }
                             {row.text}
                         </div>
