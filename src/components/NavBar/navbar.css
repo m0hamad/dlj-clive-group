@@ -32,6 +32,7 @@
 }
 
 .nav-item {
+    align-self: flex-start;
     color: var(--darkBlue);
     text-decoration: none;
     transition: .15s all;
