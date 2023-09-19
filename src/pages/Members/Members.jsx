@@ -10,7 +10,7 @@ const Members = () => {
                 className='banner-ctr-img'
             >
                 <p className='header-txt' >Members</p>
-                <img className='group-img' src={`/src/assets/images/members/0.jpg`} alt="Members Group Pic" />
+                <img className='group-img' src={`./images/members/0.jpg`} alt="Members Group Pic" />
             </div>
             <div className='bios-ctr' >
                 {

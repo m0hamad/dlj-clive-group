@@ -29,7 +29,7 @@ const ReactionMethodology = () => {
                         >
                             {
                                 rmImages[idx]?.default &&
-                                <img className='row-img' src={`/src/assets/images/reactionmethodology/${idx + 1}.png`} alt={`${row.name} image`} />
+                                <img className='row-img' src={`./images/reactionmethodology/${idx + 1}.png`} alt={`${row.name} image`} />
                             }
                             {row.text}
                         </div>
