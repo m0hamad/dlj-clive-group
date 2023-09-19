@@ -8,6 +8,7 @@
     --pink: #b8566e;
     --white: #FFFFFF;
     --black: #000000;
+    --translucentGrey: rgba(128, 128, 128, .1);
     --transition1: .15s all;
     --borderRadius1: 2px;
     --desktopWidth: 1080px;

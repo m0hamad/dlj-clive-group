@@ -51,12 +51,13 @@
     height: 2px;
     margin: 1px 0;
     transition: var(--transition1);
-    background-color: var(--blue);
+    background-color: var(--darkBlue);
     width: 0;
 }
 
 .nav-item:hover .nav-item-underline {
     width: 100%;
+    background-color: var(--pink);
 }
 
 .nav-button {

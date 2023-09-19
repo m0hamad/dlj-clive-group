@@ -5,7 +5,7 @@ import Home from '../pages/Home/Home';
 import Biography from '../pages/Biography/Biography';
 import Overview from '../pages/Overview/Overview';
 import NaturalProductSynthesis from '../pages/NaturalProductSynthesis/NaturalProductSynthesis';
-import ReactionMethodolgy from '../pages/ReactionMethodolgy/ReactionMethodolgy';
+import ReactionMethodology from '../pages/ReactionMethodology/ReactionMethodology';
 import Members from '../pages/Members/Members';
 import Publications from '../pages/Publications/Publications';
 
@@ -36,7 +36,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'reaction-methodology',
-                element: <ReactionMethodolgy />
+                element: <ReactionMethodology />
             },
             {
                 path: 'Members',

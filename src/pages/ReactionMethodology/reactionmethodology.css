@@ -28,8 +28,8 @@
 }
 
 .row-img {
-    align-self: flex-start;
     max-width: 16rem;
+    align-self: flex-start;
 }
 
 .nps-url-underline {

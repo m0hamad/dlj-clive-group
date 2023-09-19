@@ -1,12 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react'
-import './naturalproductsynthesis.css'
+import './reactionmethodology.css'
 import { Link } from 'react-router-dom'
-import data from '../../assets/files/nps.json'
+import data from '../../assets/files/rm.json'
 import AppContext from '../../context/AppContext'
 
-const NaturalProductSynthesis = () => {
+const ReactionMethodology = () => {
 
-    const { npsImages, windowWidth } = useContext(AppContext)
+    const { rmImages, windowWidth } = useContext(AppContext)
 
     return (
         <>
@@ -14,8 +14,8 @@ const NaturalProductSynthesis = () => {
                 Back to Overview
                 <div className='nps-url-underline' />
             </Link>
-            <h3 className='nps-h3' >Research on Natural Product Synthesis</h3>
-            <p className='nps-h3-text' >The Group's reputation in this area is based on the completed total syntheses of a large number of complex targets. These compounds, many of which are shown below, represent significant challenges to synthetic chemistry, and the research has usually led to the discovery of useful general reagents and methods relevant to the construction of many other types of compounds.</p>
+            <h3 className='nps-h3' >Research on Methodology</h3>
+            <p className='nps-h3-text' >In the area of Synthetic Methodology, the Clive Group has made a number of contributions that have withstood the test of time and have become common reactions that are widely used in synthesis. These contributions mainly involve the invention of <b>selenium</b> and <b>tellurium</b> reagents, and the development of <b>radical cyclization</b>, which is an area that has become an extremely large and valuable part of Synthetic Organic Chemistry.</p>
             <hr className='nps-hr' />
             {
                 data.map((row, idx) =>
@@ -27,7 +27,10 @@ const NaturalProductSynthesis = () => {
                             }}
                             className='ctr-2'
                         >
-                            <img className='row-img' src={npsImages[idx]?.default} alt={`${row.name} image`} />
+                            {
+                                rmImages[idx]?.default &&
+                                <img className='row-img' src={rmImages[idx]?.default} alt={`${row.name} image`} />
+                            }
                             {row.text}
                         </div>
                     </div>
@@ -37,4 +40,4 @@ const NaturalProductSynthesis = () => {
     )
 }
 
-export default NaturalProductSynthesis
+export default ReactionMethodology
