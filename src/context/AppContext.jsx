@@ -15,6 +15,7 @@ export const AppProvider = ({ children }) => {
 
     const [npsImages, setNpsImages] = useState([]);
     const [rmImages, setRmImages] = useState([]);
+    const [membersImages, setMembersImages] = useState([]);
 
     useEffect(() => {
         const importImages = async () => {
@@ -25,13 +26,17 @@ export const AppProvider = ({ children }) => {
             const rmImageContext = import.meta.glob('../assets/images/reactionmethodology/*.png');
             const rmImportedImages = await Promise.all(Object.values(rmImageContext).map((importImage) => importImage()));
             setRmImages(rmImportedImages)
+
+            const membersImageContext = import.meta.glob('../assets/images/members/*.jpg');
+            const membersImportedImages = await Promise.all(Object.values(membersImageContext).map((importImage) => importImage()));
+            setMembersImages(membersImportedImages)
         };
         importImages();
     }, []);
 
     return (
         <AppContext.Provider
-            value={{ windowWidth, windowHeight, location, npsImages, rmImages }}
+            value={{ windowWidth, windowHeight, location, npsImages, rmImages, membersImages }}
         >
             {children}
         </AppContext.Provider>

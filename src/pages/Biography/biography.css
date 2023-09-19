@@ -6,7 +6,7 @@
     gap: 2rem;
     box-sizing: border-box;
     border-radius: var(--borderRadius1);
-    background-color: var(--fadedLightBlue);
+    background-color: var(--translucentGrey);
     width: 100%;
     height: fit-content;
 }

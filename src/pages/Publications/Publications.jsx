@@ -9,7 +9,7 @@ const Publications = () => {
     useEffect(() => {
 
         const fetchData = async () => {
-            const file = await fetch('.././Publications.xlsx');
+            const file = await fetch('/src/assets/files/Publications.xlsx');
             const data = await file.arrayBuffer();
             const workbook = XLSX.read(data, { type: 'binary' });
             const worksheet = workbook.Sheets[workbook.SheetNames[0]];
