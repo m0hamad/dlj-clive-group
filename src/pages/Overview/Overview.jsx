@@ -14,7 +14,6 @@ const Overview = () => {
             <br />
             <h4>Research on Natural Product Synthesis</h4>
             <p>The Group has completed the total syntheses of a large number of very complicated targets. These compounds, many of which are shown below, represent significant challenges to synthetic chemistry, and the research has usually led to the discovery of useful general reagents and methods relevant to the construction of many other types of compounds.</p>
-            <br />
             <Link
                 className='overview-url'
                 to='/natural-product-synthesis'
@@ -23,10 +22,8 @@ const Overview = () => {
                 Click here for more information on Natural Products Synthesis
                 <div className='url-underline' />
             </Link>
-            <br />
             <h4>Research on Methodology</h4>
             <p>In the area of Synthetic Methodology, the Clive Group has made a number of contributions that have withstood the test of time and have become common reactions that are widely used in synthesis. These contributions have mainly involved the invention of selenium and tellurium reagents, and the development of radical cyclization, which is an area that has become an extremely large and valuable part of Synthetic Organic Chemistry.</p>
-            <br />
             <Link
                 className='overview-url'
                 to='/reaction-methodology'

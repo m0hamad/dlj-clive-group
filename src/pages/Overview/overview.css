@@ -1,5 +1,6 @@
 .overview-h2 {
     color: var(--darkBlue);
+    align-self: center;
 }
 
 .url-underline {

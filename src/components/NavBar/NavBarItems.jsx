@@ -6,7 +6,7 @@ import AppContext from '../../context/AppContext';
 
 const NavBarItems = ({ setIsOpen }) => {
 
-    const { windowWidth } = useContext(AppContext);
+    const { windowWidth, location: { pathname } } = useContext(AppContext);
 
     return (
         <div
@@ -16,7 +16,7 @@ const NavBarItems = ({ setIsOpen }) => {
             }}
         >
             {
-                NAV_ITEMS.slice(1).map(navItem =>
+                NAV_ITEMS.map(navItem =>
                     <Link
                         className='nav-item'
                         key={navItem.name}
@@ -24,7 +24,11 @@ const NavBarItems = ({ setIsOpen }) => {
                         onClick={() => setIsOpen(c => !c)}
                     >
                         {navItem.name}
-                        <div className='nav-item-underline' />
+                        <div
+                            style={{
+                                width: pathname === navItem.path && '100%',
+                            }}
+                            className='nav-item-underline' />
                     </Link>
                 )
             }

@@ -6,6 +6,7 @@ import { NAV_ITEMS } from '../../utils/constants'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+
     return (
         <footer id='footer' className='footer' >
             <div className='footer-content-wrapper' >

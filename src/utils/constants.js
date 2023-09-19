@@ -1,9 +1,9 @@
 export const NAV_ITEMS = [
     { name: 'Home', path: '/' },
-    { name: 'Biography', path: 'biography' },
-    { name: 'Overview', path: 'overview' },
-    { name: 'Members', path: 'members' },
-    { name: 'Publications', path: 'publications' },
+    { name: 'Biography', path: '/biography' },
+    { name: 'Overview', path: '/overview' },
+    { name: 'Members', path: '/members' },
+    { name: 'Publications', path: '/publications' },
 ]
 
 export const LINKS = [

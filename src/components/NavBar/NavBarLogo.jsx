@@ -5,7 +5,7 @@ import './navbar.css'
 
 const NavBarLogo = () => {
     return (
-        <Link to={`/`}>
+        <Link target='_blank' to={`https://www.ualberta.ca/chemistry/index.html`}>
             <img
                 className='chem-department-logo'
                 src={logo}
