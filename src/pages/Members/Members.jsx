@@ -16,7 +16,7 @@ const Members = () => {
                 {
                     data.map((member, idx) =>
                         <div className='bio-ctr' key={idx} >
-                            <img className='member-img' src={`/src/assets/images/members/${idx + 1}.jpg`} alt={`${member.name} image`} />
+                            <img className='member-img' src={`./images/members/${idx + 1}.jpg`} alt={`${member.name} image`} />
                             <div className='bio-text-ctr' >
                                 <p className='bio-name' >{member.name}</p>
                                 <p className='bio-text'>{member.bio}</p>
