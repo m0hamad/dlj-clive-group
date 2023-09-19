@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../../assets/images/chem-department-logo.png'
 import { Link } from 'react-router-dom'
 import './navbar.css'
 
@@ -8,7 +7,7 @@ const NavBarLogo = () => {
         <Link target='_blank' to={`https://www.ualberta.ca/chemistry/index.html`}>
             <img
                 className='chem-department-logo'
-                src={logo}
+                src="./images/chem-department-logo.png"
                 alt="University of Alberta Department of Chemistry Logo"
             />
         </Link>
