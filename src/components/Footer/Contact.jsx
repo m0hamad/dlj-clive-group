@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
     return (
         <div className='address' >
-            <h3 style={{ fontWeight: 400 }} >CONTACT</h3>
+            <h3 style={{ fontWeight: 400 }} >Contact</h3>
             <hr className='divider' />
             <br />
             <p><b>Professor Derrick L. J. Clive</b></p>

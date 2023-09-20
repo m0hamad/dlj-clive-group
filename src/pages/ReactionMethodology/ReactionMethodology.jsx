@@ -29,9 +29,8 @@ const ReactionMethodology = () => {
                         >
                             {
                                 <img className='row-img' src={`./images/reactionmethodology/${idx + 1}.png`} alt={`${row.name} image`} />
-                                // <img className='row-img' src={`./images/naturalproductsynthesis/${idx + 1}.png`} alt={`${row.name} image`} />
                             }
-                            {row.text}
+                            <span dangerouslySetInnerHTML={{ __html: row.text }} />
                         </div>
                     </div>
                 )

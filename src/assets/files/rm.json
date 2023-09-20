@@ -1,15 +1,15 @@
 [
     {
         "name": "Selenoxide Elimination",
-        "text": "We played a large role in the discovery of organoselenium reagents through the development of selenoxide elimination for generating double bonds, and exploration of the class of reactions we call cyclofunctionalization (see below). Selenoxide elimination is an exceptionally valuable method for introducing double bonds, and it is now such a fundamental part of organic chemistry that it has found its way into standard beginning textbooks."
+        "text": "We played a large role in the discovery of organoselenium reagents through the development of <b>selenoxide elimination</b> for generating double bonds, and exploration of the class of reactions we call <b>cyclofunctionalization</b> (see below). Selenoxide elimination is an exceptionally valuable method for introducing double bonds, and it is now such a fundamental part of organic chemistry that it has found its way into standard beginning textbooks."
     },
     {
         "name": "Cyclofunctionalization",
-        "text": "Selenium-induced ring closures serve not only to bring about a cyclization but also to introduce a functional group — hence the name cyclofunctionalization. The method can be used to prepare a wide range of heterocycles, especially those containing O, N, and S. The formation of carbon-carbon bonds is also possible."
+        "text": "Selenium-induced ring closures serve not only to bring about a cyclization but also to introduce a functional group — hence the name <b>cyclofunctionalization</b>. The method can be used to prepare a wide range of heterocycles, especially those containing O, N, and S. The formation of carbon-carbon bonds is also possible."
     },
     {
         "name": "Tellurium Reagents",
-        "text": "We introduced the first organic reagent containing tellurium [(EtO)2P(O)Te-Na+], which deoxygenates epoxides. The reagent generates a three-membered ring containing tellurium; such species spontaneously expel tellurium to afford an alkene. Based on our understanding of the mechanism, we found that Li2Te converts nucleoside dimesylates into unsaturated nucleosides, which are intermediates in the synthesis of anti-AIDS drugs. Our method has been patented."
+        "text": "We introduced the first organic reagent containing tellurium [(EtO)<sub>2</sub>P(O)Te<sup>-</sup>Na<sup>+</sup>], which deoxygenates epoxides. The reagent generates a three-membered ring containing tellurium; such species spontaneously expel tellurium to afford an alkene. Based on our understanding of the mechanism, we found that Li<sub>2</sub>Te converts nucleoside dimesylates into unsaturated nucleosides, which are intermediates in the synthesis of anti-AIDS drugs. Our method has been patented."
     },
     {
         "name": "Titanium Reagent for Ring Formation",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Radical Cyclization",
-        "text": "My group has played a very prominent role in the development of radical cyclization, especially through the discovery that phenyl selenides (PhSeR) can be converted into radicals R• by reaction with Ph3SnH and an initiator, such as AIBN. These radicals can then be used for simple reduction or for other purposes, such as cyclization. The PhSe group is now used in most laboratories as one of the standard precursors for radicals in many types of reaction, and is employed across the board — from the construction of small molecules to complex natural products."
+        "text": "My group has played a very prominent role in the development of <b>radical cyclization</b>, especially through the discovery that phenyl selenides (PhSeR) can be converted into radicals R• by reaction with Ph<sub>3</sub>SnH and an initiator, such as AIBN. These radicals can then be used for simple reduction or for other purposes, such as cyclization. The PhSe group is now used in most laboratories as one of the standard precursors for radicals in many types of reaction, and is employed across the board — from the construction of small molecules to complex natural products."
     },
     {
         "name": "Advantages of the PhSe Group",
@@ -25,15 +25,15 @@
     },
     {
         "name": "New Tin Hydride Reagent",
-        "text": "Carbon radicals are usually generated from phenyl selenides or bromides by the action of Ph3SnH or Bu3SnH. Although these methods are extremely popular, some effort is usually needed to separate the reaction product from the tin-containing byproducts. We have prepared a modified stannane which greatly facilitates product isolation because the tin-containing byproducts can be made soluble in aqueous sodium bicarbonate, and then simply extracted into the aqueous layer."
+        "text": "Carbon radicals are usually generated from phenyl selenides or bromides by the action of Ph<sub>3</sub>SnH or Bu<sub>3</sub>SnH. Although these methods are extremely popular, some effort is usually needed to separate the reaction product from the tin-containing byproducts. We have prepared a modified stannane which greatly facilitates product isolation because the tin-containing byproducts can be made soluble in aqueous sodium bicarbonate, and then simply extracted into the aqueous layer."
     },
     {
         "name": "Iterative Ring Formation",
-        "text": "We have developed an iterative process for fusing rings onto existing rings. Each new ring can be fused syn or anti to the previous ring. The rings can be added in a linear manner, as shown, or in a clockwise or anticlockwise direction. We have used the linear version of this methodology in the total synthesis of ceratopicanol."
+        "text": "We have developed an iterative process for fusing rings onto existing rings. Each new ring can be fused <i>syn</i> or <i>anti</i> to the previous ring. The rings can be added in a linear manner, as shown, or in a clockwise or anticlockwise direction. We have used the linear version of this methodology in the total synthesis of ceratopicanol."
     },
     {
         "name": "Radical \"Bouncing Reactions\"",
-        "text": "The radical cascade summarized in the Scheme represents a way of carrying out \"5-endo-trigonal\" cyclizations. These are normally disfavored, but the Scheme shows how to carry out such processes, and we have used the method to synthesize juruenolide C. The initial radical undergoes cyclization, intramolecular hydrogen transfer, and 5-endo-trigonal cyclization. The resulting radical is then reduced by R'3SnH or expels R'3Sn•. Several bonds are formed in a single step, and the stereochemical outcome is controlled by the stereochemistry at the starred atom in the starting material."
+        "text": "The radical cascade summarized in the Scheme represents a way of carrying out \"5-<i>endo</i>-<i>trigonal</i>\" cyclizations. These are normally disfavored, but the Scheme shows how to carry out such processes, and we have used the method to synthesize juruenolide C. The initial radical undergoes cyclization, intramolecular hydrogen transfer, and 5-<i>endo</i>-<i>trigonal</i> cyclization. The resulting radical is then reduced by R'<sub>3</sub>SnH or expels R'<sub>3</sub>Sn•. Several bonds are formed in a single step, and the stereochemical outcome is controlled by the stereochemistry at the starred atom in the starting material."
     },
     {
         "name": "Radical Cyclization with Retention of Functionality",
@@ -57,11 +57,11 @@
     },
     {
         "name": "Intramolecular Conjugate Displacement (ICD)",
-        "text": "The ICD reaction is so-named because it combines the attributes of a intramolecular conjugate addition and an SN2' displacement. The reaction occurs much more readily than a normal Michael addition. The method can be used in a number of ways to make nitrogen heterocycles and also carbocycles; various ring sizes are accessible."
+        "text": "The ICD reaction is so-named because it combines the attributes of a intramolecular conjugate addition and an S<sub>N</sub>2' displacement. The reaction occurs much more readily than a normal Michael addition. The method can be used in a number of ways to make nitrogen heterocycles and also carbocycles; various ring sizes are accessible."
     },
     {
         "name": "Formation of Piperazine-2,5-diones",
-        "text": "Piperazine-2,5-diones, which are important structural motifs in several medicines, are formed by Dieckmann cyclization of substructures of the type R3CH2N(R1)C(O)-CH2N(R2)CO2Ph in which the terminal methylene (CH2) that is adjacent to nitrogen closes onto the carbonyl group of the phenyl carbamate unit at the other end of the chain. The starting materials are easily assembled by standard acylation and oxidation processes."
+        "text": "Piperazine-2,5-diones, which are important structural motifs in several medicines, are formed by Dieckmann cyclization of substructures of the type R3<b>CH</b><sub>2</sub>N(R<sup>1</sup>)C(O)-CH<sub>2</sub>N(R<sup>2</sup>)CO<sub>2</sub>Ph in which the terminal methylene (<b>CH</b><sub>2</sub>) that is adjacent to nitrogen closes onto the carbonyl group of the phenyl carbamate unit at the other end of the chain. The starting materials are easily assembled by standard acylation and oxidation processes."
     },
     {
         "name": "Synthesis of 1,3'-Bipyrroles",
@@ -73,26 +73,26 @@
     },
     {
         "name": "A Family of Routes to Substituted Phenols",
-        "text": "A new family of routes to substituted phenols has been developed. The sequence affords phenolic azides (ArN3), sulfides (ArSR, ArSAr'), selenides (ArSePh), alcohols [ArCH(OH)R], amino derivatives [ArCH(NHSO2-Ar')R], and 1,2-benzenediols. A complementary set of substitution patterns is obtained by DIBAL-H reduction or reaction with a Grignard reagent before aromatization; the latter process gives compounds in which the newly-introduced substituent is meta to the phenolic hydroxyl."
+        "text": "A new family of routes to substituted phenols has been developed. The sequence affords phenolic azides (ArN<sub>3</sub>), sulfides (ArSR, ArSAr'), selenides (ArSePh), alcohols [ArCH(OH)R], amino derivatives [ArCH(NHSO<sub>2</sub>-Ar')R], and 1,2-benzenediols. A complementary set of substitution patterns is obtained by DIBAL-H reduction or reaction with a Grignard reagent before aromatization; the latter process gives compounds in which the newly-introduced substituent is <i>meta</i> to the phenolic hydroxyl."
     },
     {
         "name": "A Nucleophilic Protected H2S equivalent",
-        "text": "t-BuMe2SiOCH2SH is a nucleophilic reagent for introduction of a protected bivalent sulfur; this reagent is complementary to our electrophilic reagent p-Me-C6H4-SO2SCH2OSiMe2Bu-t. The thiol reacts with alkyl bromides to give protected thiols. The protecting group can be removed with Bu4NF."
+        "text": "t-BuMe<sub>2</sub>SiOCH<sub>2</sub>SH is a nucleophilic reagent for introduction of a protected bivalent sulfur; this reagent is complementary to our electrophilic reagent p-Me-C<sub>6</sub>H<sub>4</sub>-SO<sub>2</sub>SCH<sub>2</sub>OSiMe<sub>2</sub>Bu-t. The thiol reacts with alkyl bromides to give protected thiols. The protecting group can be removed with Bu<sub>4</sub>NF."
     },
     {
         "name": "The Silicon Route to Cycloalkane-1.3-diones",
-        "text": "Conjugate addition of Me3SiMe2SiLi to cycloalk-2-en-1-ones, ketalization, Tamao-Fleming oxidation (Bu4NF, then H2O2, KHCO3), TPAP oxidation and acid hydrolysis generates 2-methyl cycloalkane-1,3-diones. Ketalization is needed in order to prevent addition of Me3Si- to the carbonyl. The pentamethyldisilanyl group has advantages over other silicon units that are used in Tamao-Fleming procedures."
+        "text": "Conjugate addition of Me3SiMe2SiLi to cycloalk-2-en-1-ones, ketalization, Tamao-Fleming oxidation (Bu<sub>4</sub>NF, then H<sub>2</sub>O<sub>2</sub>, KHCO<sub>3</sub>), TPAP oxidation and acid hydrolysis generates 2-methyl cycloalkane-1,3-diones. Ketalization is needed in order to prevent addition of Me<sub>3</sub>Si- to the carbonyl. The pentamethyldisilanyl group has advantages over other silicon units that are used in Tamao-Fleming procedures."
     },
     {
         "name": "Radical decarboxylation route to hydrooxepine enol ethers",
         "text": "MPC1001 and related antibiotics contain a hydrogenated oxepine ring system. We have developed a mild approach to such compounds based on a photochemical decarboxylation. The starting enol ether esters are easily available. They readily undergo thiol addition and simultaneous deprotection of the carboxyl group. Formation of the Barton ester and exposure to daylight generates the oxepine system — all under very mild conditions suitable for synthesis of the MPC1001 antibiotic series."
     },
     {
-        "name": "Formation of meta-Aminophenols",
-        "text": "meta-Aminophenols are subunits of some agrochemicals and medicines and we have developed a mild route to such phenols. Cyclohexane-1,3-dione is readily converted into 3-aminocyclohex-2-en-1-ones in which the nitrogen carries two substituents, which are both aryl or alkyl units, or one of each type. Such compounds can be chlorinated at C(2) with the crystalline reagent BnNMe3.ICl2 and the resulting chloro enaminones undergo aromatization at room temperature on treatment with DBU in MeCN."
+        "name": "Formation of <i>meta</i>-Aminophenols",
+        "text": "<i>meta</i>-Aminophenols are subunits of some agrochemicals and medicines and we have developed a mild route to such phenols. Cyclohexane-1,3-dione is readily converted into 3-aminocyclohex-2-en-1-ones in which the nitrogen carries two substituents, which are both aryl or alkyl units, or one of each type. Such compounds can be chlorinated at C(2) with the crystalline reagent BnNMe<sub>3</sub>.ICl<sub>2</sub> and the resulting chloro enaminones undergo aromatization at room temperature on treatment with DBU in MeCN."
     },
     {
-        "name": "Formation of meta-(Aryloxy)phenols",
+        "name": "Formation of <i>meta</i>-(Aryloxy)phenols",
         "text": "The classical Ullmann reaction for making diaryl ethers uses a copper catalyst and a high temperature. In contrast, the aromatization step displayed on the right operates at room temperature and does not involve any heavy metals. By starting with a 3-chlorocyclohexenone, which is readily available in one step, all the problems of making a 3-substituted phenol which would be needed for the traditional Ullmann process are avoided."
     }
 ]

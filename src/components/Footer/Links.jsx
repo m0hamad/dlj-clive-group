@@ -4,7 +4,7 @@ import { LINKS } from '../../utils/constants'
 const Links = () => {
     return (
         <div className='links' >
-            <h3 style={{ fontWeight: 400 }} >LINKS</h3>
+            <h3 style={{ fontWeight: 400 }} >Links</h3>
             <hr className='divider' />
             <br />
             {
