@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import './overview.css'
 import { Link } from 'react-router-dom'
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs'
 
 const Overview = () => {
     return (
@@ -21,7 +22,10 @@ const Overview = () => {
                 to='/natural-product-synthesis'
                 onClick={() => window.scrollTo({ top: 0 })}
             >
-                Click here for more information on Natural Products Synthesis
+                <p>
+                    <BsArrowRightShort className='arrow-right' />
+                    Click here for more information on Natural Products Synthesis <BsArrowLeftShort className='arrow-left' />
+                </p>
                 <div className='url-underline' />
             </Link>
             <h4 className='overview-h4' >Research on Methodology</h4>
@@ -32,7 +36,10 @@ const Overview = () => {
                 to='/reaction-methodology'
                 onClick={() => window.scrollTo({ top: 0 })}
             >
-                Click here for more information on Reaction Methodology
+                <p>
+                    <BsArrowRightShort className='arrow-right' />
+                    Click here for more information on Reaction Methodology<BsArrowLeftShort className='arrow-left' />
+                </p>
                 <div className='url-underline' />
             </Link>
             <br />

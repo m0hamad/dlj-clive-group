@@ -1,0 +1,31 @@
+.publications-hr {
+    padding: 0;
+    border: none;
+    height: 1px;
+    border-radius: var(--borderRadius1);
+    background-color: var(--darkBlue);
+}
+
+.publications-h3 {
+    color: var(--darkBlue);
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.row-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .75rem;
+}
+
+.hide-me {
+    display: none;
+}
+
+.publication-ol {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

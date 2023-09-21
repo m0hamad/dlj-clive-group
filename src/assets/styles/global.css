@@ -8,7 +8,7 @@
     --pink: #b8566e;
     --white: #FFFFFF;
     --black: #000000;
-    --translucentGrey: rgba(128, 128, 128, .15);
+    --translucentGrey: rgba(128, 128, 128, .075);
     --transition1: .15s all;
     --borderRadius1: 2px;
     --desktopWidth: 1080px;
@@ -22,9 +22,10 @@
 }
 
 * {
-    font-family: 'jost';
+    font-family: 'roboto';
     padding: 0;
     margin: 0;
+    font-weight: 400;
 }
 
 body {
@@ -41,9 +42,10 @@ ol {
 ol>li {
     margin: 0;
     padding: 0 0 1rem 3rem;
-    text-indent: -2rem;
+    text-indent: -2.25rem;
     list-style-type: none;
     counter-increment: item;
+    line-height: 1.5rem;
 }
 
 ol>li:before {
@@ -53,4 +55,14 @@ ol>li:before {
     font-weight: bold;
     text-align: right;
     content: counter(item) ".";
+}
+
+p {
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+h2,
+h4 {
+    font-weight: 500;
 }

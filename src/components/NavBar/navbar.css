@@ -38,6 +38,7 @@
     transition: .15s all;
     font-weight: 400;
     padding: 2px 4px;
+    font-size: 15px;
     border-radius: var(--borderRadius1);
     cursor: pointer;
 

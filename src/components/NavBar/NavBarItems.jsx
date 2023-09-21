@@ -39,7 +39,7 @@ const NavBarItems = ({ setIsOpen }) => {
                     setIsOpen(c => !c)
                 }}
             >
-                Contact
+                Contact & Links
                 <div className='nav-item-underline' />
             </a>
         </div>

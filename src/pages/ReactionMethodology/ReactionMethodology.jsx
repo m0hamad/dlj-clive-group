@@ -30,7 +30,7 @@ const ReactionMethodology = () => {
                             {
                                 <img className='row-img' src={`./images/reactionmethodology/${idx + 1}.png`} alt={`${row.name} image`} />
                             }
-                            <span dangerouslySetInnerHTML={{ __html: row.text }} />
+                            <p dangerouslySetInnerHTML={{ __html: row.text }} />
                         </div>
                     </div>
                 )

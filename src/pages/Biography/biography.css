@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     padding: 1rem;
-    gap: 2rem;
+    gap: 1rem;
     box-sizing: border-box;
     border-radius: var(--borderRadius1);
     background-color: var(--translucentGrey);
@@ -18,10 +18,13 @@
 }
 
 .profile-pic {
-    border: double 4px var(--blue);
-    border-radius: 100%;
+    border-radius: var(--borderRadius1);
 }
 
-.bio-text {
+.biography-text {
     text-align: justify;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    border-left: solid 2px var(--blue);
+    padding: 0 1rem;
 }
