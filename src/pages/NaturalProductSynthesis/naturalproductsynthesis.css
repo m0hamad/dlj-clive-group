@@ -1,11 +1,10 @@
 .ctr-1 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     gap: .75rem;
-    background-color: var(--translucentGrey);
-    border-radius: var(--borderRadius1);
     padding: 1rem;
+    border-bottom: solid 1.5px var(--blue);
 }
 
 .ctr-2 {
@@ -33,7 +32,7 @@
 }
 
 .nps-url-underline {
-    height: 2px;
+    height: 1.5px;
     width: 0%;
     background-color: var(--blue);
     transition: var(--transition1);

@@ -50,7 +50,7 @@
 
 .nav-item-underline {
     border-radius: 4px;
-    height: 2px;
+    height: 1.5px;
     margin: 1px 0;
     transition: var(--transition1);
     background-color: var(--darkBlue);

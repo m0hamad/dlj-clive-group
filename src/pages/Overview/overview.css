@@ -5,7 +5,7 @@
 }
 
 .url-underline {
-    height: 2px;
+    height: 1.5px;
     width: 0%;
     background-color: var(--blue);
     transition: var(--transition1);
@@ -27,7 +27,6 @@
 }
 
 .overview-url {
-    font-weight: 500;
     font-size: 1.0625rem;
     display: flex;
     align-self: center;
@@ -39,13 +38,12 @@
     padding: .25rem 0;
     border-radius: var(--borderRadius1);
     transition: var(--transition1);
-    /* background-color: var(--fadedLightBlue); */
 
     &:hover {
         color: var(--pink);
 
         .url-underline {
-            width: 100%;
+            width: 90%;
             background-color: var(--pink);
         }
 

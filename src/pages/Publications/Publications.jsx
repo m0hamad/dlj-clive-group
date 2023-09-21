@@ -54,6 +54,7 @@ const Publications = () => {
                                 {Year && <b> {Year}</b>}
                                 {Volume && `, ${Volume}`}
                                 {Pages && `, ${Pages}`}
+                                {DOI && <><span> (</span><a className='doi-url' target='_blank' href={DOI}>DOI</a><span>)</span></>}
                                 .
                             </span>
                             <div>

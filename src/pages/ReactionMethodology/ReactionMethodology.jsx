@@ -19,13 +19,13 @@ const ReactionMethodology = () => {
             <hr className='nps-hr' />
             {
                 data.map((row, idx) =>
-                    <div className='ctr-1' key={idx} >
+                    <div className='rm-ctr-1' key={idx} >
                         <p dangerouslySetInnerHTML={{ __html: row.name }} className='row-name' />
                         <div
                             style={{
                                 flexDirection: (idx % 2 === 1 && windowWidth > 650) && 'row-reverse'
                             }}
-                            className='ctr-2'
+                            className='rm-ctr-2'
                         >
                             {
                                 <img className='row-img' src={`./images/reactionmethodology/${idx + 1}.png`} alt={`${row.name} image`} />

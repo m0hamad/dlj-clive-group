@@ -1,14 +1,13 @@
-.ctr-1 {
+.rm-ctr-1 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     gap: .75rem;
-    background-color: var(--translucentGrey);
-    border-radius: var(--borderRadius1);
     padding: 1rem;
+    border-bottom: solid 1.5px var(--blue);
 }
 
-.ctr-2 {
+.rm-ctr-2 {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
@@ -16,15 +15,19 @@
     text-align: justify;
 }
 
-@media screen and (max-width: 650px) {
-    .ctr-2 {
-        flex-direction: column;
-    }
-}
-
 .row-name {
     font-size: 1.5rem;
     color: var(--darkBlue);
+}
+
+@media screen and (max-width: 650px) {
+    .rm-ctr-2 {
+        flex-direction: column;
+    }
+
+    .row-name {
+        text-align: center;
+    }
 }
 
 .row-img {
@@ -33,7 +36,7 @@
 }
 
 .nps-url-underline {
-    height: 2px;
+    height: 1.5px;
     width: 0%;
     background-color: var(--blue);
     transition: var(--transition1);
